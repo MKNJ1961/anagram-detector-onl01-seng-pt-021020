@@ -7,6 +7,7 @@ class Anagram
   end
 
   def match(words)
+    word_hash = to_has(self.word)
 
   end
 
