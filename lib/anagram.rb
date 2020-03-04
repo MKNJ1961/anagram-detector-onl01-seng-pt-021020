@@ -8,7 +8,7 @@ class Anagram
 
   def match(words)
     word_hash = to_hash(self.word)
-    word.select{|test| hash_equality(word_hash, to_hash(test))}
+    words.select{|test| hash_equality(word_hash, to_hash(test))}
 
   end
 
