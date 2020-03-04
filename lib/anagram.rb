@@ -24,5 +24,3 @@ class Anagram
     (hash1.keys.length == hash2.keys.length) && hash1.keys.all?{|k| hash1[k] == hash2[k]}
   end
 end
-
-
